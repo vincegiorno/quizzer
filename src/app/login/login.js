@@ -13,7 +13,7 @@ angular.module( 'ngQuizzer.login', [
         }
     }})
       .state( 'login.student', {
-          url:'/take_test',
+          url:'/student',
           views: {
               "login": {
                   templateUrl: 'login/student.tpl.html',
@@ -23,7 +23,7 @@ angular.module( 'ngQuizzer.login', [
           data:{ pageTitle: 'Login' }
       })
       .state( 'login.teacher', {
-          url:'/create_test',
+          url:'/teacher',
           views: {
               "login": {
                   templateUrl: 'login/teacher.tpl.html',
@@ -42,6 +42,7 @@ angular.module( 'ngQuizzer.login', [
     $scope.signup = !$scope.login;
     $scope.loginError = false;
     $scope.signupError = false;
+    
     
     $scope.teacherSignup = function() {
         

@@ -10,8 +10,8 @@ describe( 'AppCtrl', function() {
       AppCtrl = $controller( 'AppCtrl', { $location: $location, $scope: $scope });
     }));
 
-    it( 'should pass a dummy test', inject( function() {
-      expect( AppCtrl ).toBeTruthy();
+    it( 'should go home on dashboard access w/o login', inject( function() {
+      
     }));
   });
 });
