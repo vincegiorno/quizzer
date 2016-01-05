@@ -1,6 +1,4 @@
-# [ngBoilerplate](http://joshdmiller.github.com/ng-boilerplate) [![Build Status](https://api.travis-ci.org/ngbp/ngbp.png?branch=v0.3.2-release)](https://travis-ci.org/ngbp/ngbp)
-
-An opinionated kickstarter for [AngularJS](http://angularjs.org) projects.
+This project intends to use [ngBoilerplate](http://joshdmiller.github.com/ng-boilerplate) to develop an app that uses AngularJS, MongoDB and NodeJS to allow test/quizzes to be created, stored, taken and the results recorded online. It is on hold indefinitely.
 
 ***
 
